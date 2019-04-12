@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Servlet Form</title>
+		<meta charset='UTF-8'>
+	</head>
+	<body>
+		<h1>REQUIRED FORM TO COMPLETE</h1>
+		<form method='get' action='testForm'>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<p><label>NAME:</label>  <input type='text' name='username' required></p>
+				<p><label>AGE:</label>  <input type='number' name='userage' min='0' required></p>
+				<p><label>E-MAIL:</label>  <input type='email' name='useremail' required></p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Occupational Information</legend>
+				<p><label>JOB TITLE:</label>  <input type='text' name='userjob' required></p>
+				<p><label>SALARY:</label>  <input type='number' name='usersalary' min='0' required></p>
+			</fieldset>
+			
+			<input type='submit' value='SEND INFORMATION'>
+			<input type='reset' value='CLEAR FORM'>
+		</form>
+	</body>
+</html>
